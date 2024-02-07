@@ -4,11 +4,14 @@
   "license": "MIT",
   "author": "Cody Olsen",
   "homepage": "https://react-spring-bottom-sheet.cocody.dev",
-  "repository": "stipsan/react-spring-bottom-sheet",
-  "bugs": {
-    "url": "https://github.com/stipsan/react-spring-bottom-sheet/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasGH/react-spring-bottom-sheet.git"
   },
-  "version": "3.4.1",
+  "bugs": {
+    "url": "https://github.com/JasGH/react-spring-bottom-sheet/issues"
+  },
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
@@ -136,5 +139,8 @@
     "singleQuote": true
   },
   "source": "src/index.tsx",
-  "style": "dist/style.css"
+  "style": "dist/style.css",
+  "directories": {
+    "doc": "docs"
+  }
 }
