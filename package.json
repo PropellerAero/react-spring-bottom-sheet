@@ -2,7 +2,7 @@
   "name": "react-spring-bottom-sheet",
   "description": "✨ Accessible, 🪄 Delightful, and 🤯 Performant. Built on react-spring for the web, and react-use-gesture.",
   "license": "MIT",
-  "author": "Cody Olsen",
+  "author": "Jasmine GH",
   "homepage": "https://react-spring-bottom-sheet.cocody.dev",
   "repository": {
     "type": "git",
@@ -129,10 +129,6 @@
     "*.{js,jsx,ts,tsx}": "eslint --fix",
     "*.{js,jsx,ts,tsx,md,html,css,yml,json}": "prettier --write",
     "package.json": "prettier-package-json --write"
-  },
-  "meta": {
-    "twitter:site": "@stipsan",
-    "twitter:image:src": "https://react-spring-bottom-sheet.cocody.dev/somecard.png"
   },
   "prettier": {
     "semi": false,
