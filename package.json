@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/NIPE-Solutions/react-spring-bottom-sheet/issues"
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
