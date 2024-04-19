@@ -28,7 +28,7 @@ I am not the original author of this software. The original creation was by Cody
 ## Installation
 
 ```bash
-npm i react-spring-bottom-sheet
+npm i @nipe-solutions/react-spring-bottom-sheet
 ```
 
 ## Getting started
