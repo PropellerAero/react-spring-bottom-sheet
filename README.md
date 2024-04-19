@@ -1,33 +1,38 @@
-[![npm stat](https://img.shields.io/npm/dm/react-spring-bottom-sheet.svg?style=flat-square)](https://npm-stat.com/charts.html?package=react-spring-bottom-sheet)
-[![npm version](https://img.shields.io/npm/v/react-spring-bottom-sheet.svg?style=flat-square)](https://www.npmjs.com/package/react-spring-bottom-sheet)
-[![gzip size][gzip-badge]][unpkg-dist]
-[![size][size-badge]][unpkg-dist]
+# React Spring Bottom Sheet (React 18)
+
+[![npm stat](https://img.shields.io/npm/dm/@nipe-solutions/react-spring-bottom-sheet.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@nipe-solutions/react-spring-bottom-sheet)
+[![npm version](https://img.shields.io/npm/v/@nipe-solutions/react-spring-bottom-sheet.svg?style=flat-square)](https://www.npmjs.com/package/@nipe-solutions/react-spring-bottom-sheet)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6348db32-4930-4fca-a11d-c3098c9fda4f/deploy-status)](https://app.netlify.com/sites/react-spring-bottom-sheet-updated/deploys)
 [![module formats: cjs, es, and modern][module-formats-badge]][unpkg-dist]
 
-![Logo with the text Accessible, Delightful and Performant](https://react-spring-bottom-sheet.cocody.dev/readme.svg)
+![Logo with the text Accessible, Delightful and Performant](https://react-spring-bottom-sheet.nipesolutions.com/readme.svg)
 
-🌟 About This Version
-✨ Updated Version
+## 🌟 About This Version
+
+### ✨ Updated Version
+
 This project is an updated version of the original, which was authored by Cody Olsen. I have forked this repository from Jasmine GH to include significant updates and enhancements. Notably, this version has been updated to fully support React 18 and incorporates the latest features and improvements from XState v5.
 
-📝 Attribution
+### 📝 Attribution
+
 I am not the original author of this software. The original creation was by Cody Olsen, and my fork is based on the work maintained by Jasmine GH. Please refer to the original repositories for historical context and previous versions of the software. My contributions are focused on compatibility enhancements and feature updates to keep the project aligned with current development practices and library versions.
 
-🔗 Repository Links
-Original Author's Repository: Cody Olsen's GitHub
-Forked Version I Based My Work On: Jasmine GH's GitHub
+## 🔗 Repository Links
+
+- Original Author's Repository: [Cody Olsen's GitHub](https://github.com/stipsan/react-spring-bottom-sheet)
+- Forked Version I Based My Work On: [Jasmine GH's GitHub](https://github.com/JasGH/react-spring-bottom-sheet)
 
 **react-spring-bottom-sheet** is built on top of **[react-spring]** and **[react-use-gesture]**. It busts the myth that accessibility and supporting keyboard navigation and screen readers are allegedly at odds with delightful, beautiful, and highly animated UIs. Every animation and transition use CSS custom properties instead of manipulating them directly, allowing complete control over the experience from CSS alone.
 
-# Installation
+## Installation
 
 ```bash
 npm i react-spring-bottom-sheet
 ```
 
-# Getting started
+## Getting started
 
-## Basic usage
+### Basic usage
 
 ```jsx
 import { useState } from 'react'
@@ -48,7 +53,7 @@ export default function Example() {
 }
 ```
 
-## TypeScript
+### TypeScript
 
 TS support is baked in, and if you're using the `snapTo` API use `BottomSheetRef`:
 
@@ -105,7 +110,6 @@ module.exports = {
   },
 }
 ```
-
 
 # [Demos](https://react-spring-bottom-sheet.cocody.dev/)
 
