@@ -33,7 +33,7 @@ import type {
   ResizeSource,
   SnapPointProps,
 } from './types'
-import { debugging } from './utils'
+
 import { fromPromise } from 'xstate'
 
 const { tension, friction } = config.default
@@ -183,7 +183,7 @@ export const BottomSheet = React.forwardRef<
           },
         })
       ),
-    [set]
+    [set, springConfig]
   )
   const [current, send] = useMachine(
     overlayMachine.provide({
