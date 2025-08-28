@@ -12,16 +12,17 @@
 
 ### ✨ Updated Version
 
-This project is an updated version of the original, which was authored by Cody Olsen. I have forked this repository from Jasmine GH to include significant updates and enhancements. Notably, this version has been updated to fully support React 18 and incorporates the latest features and improvements from XState v5.
+This project is an updated version of the original, which was authored by Cody Olsen. I have forked this repository from Nipe Solutions to include updates and enhancements. Notably, this version has been updated to remove the use of reach ui.
 
 ### 📝 Attribution
 
-I am not the original author of this software. The original creation was by Cody Olsen, and my fork is based on the work maintained by Jasmine GH. Please refer to the original repositories for historical context and previous versions of the software. My contributions are focused on compatibility enhancements and feature updates to keep the project aligned with current development practices and library versions.
+I am not the original author of this software. The original creation was by Cody Olsen, and my fork is based on the work maintained by Jasmine GH and Nipe Solutions. Please refer to the original repositories for historical context and previous versions of the software. My contributions are focused on compatibility enhancements and feature updates to keep the project aligned with current development practices and library versions.
 
 ## 🔗 Repository Links
 
 - Original Author's Repository: [Cody Olsen's GitHub](https://github.com/stipsan/react-spring-bottom-sheet)
-- Forked Version I Based My Work On: [Jasmine GH's GitHub](https://github.com/JasGH/react-spring-bottom-sheet)
+- Forked Version Nipe Solutions Based their Work On: [Jasmine GH's GitHub](https://github.com/JasGH/react-spring-bottom-sheet)
+- Forked Version I Based My Work On: [Nipe solutions' GitHub](https://github.com/NIPE-Solutions/react-spring-bottom-sheet)
 
 **react-spring-bottom-sheet** is built on top of **[react-spring]** and **[react-use-gesture]**. It busts the myth that accessibility and supporting keyboard navigation and screen readers are allegedly at odds with delightful, beautiful, and highly animated UIs. Every animation and transition use CSS custom properties instead of manipulating them directly, allowing complete control over the experience from CSS alone.
 

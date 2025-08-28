@@ -1,22 +1,22 @@
 {
-  "name": "@nipe-solutions/react-spring-bottom-sheet",
+  "name": "@propelleraero/react-spring-bottom-sheet",
   "description": "React 18, XState v5 - ✨ Accessible, 🪄 Delightful, and 🤯 Performant. Built on react-spring for the web, and react-use-gesture.",
   "license": "MIT",
   "author": "Cody Olsen",
   "authors": [
     "Cody Olsen",
     "Jasmine GH",
-    "Nicholas Petrasek"
+    "Nicholas Petrasek",
+    "Jarrod van den Heuvel"
   ],
-  "homepage": "https://react-spring-bottom-sheet.nipesolutions.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NIPE-Solutions/react-spring-bottom-sheet.git"
+    "url": "https://github.com/PropellerAero/react-spring-bottom-sheet"
   },
   "bugs": {
-    "url": "https://github.com/NIPE-Solutions/react-spring-bottom-sheet/issues"
+    "url": "https://github.com/PropellerAero/react-spring-bottom-sheet/issues"
   },
-  "version": "4.0.4",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
@@ -61,6 +61,7 @@
     "@types/classnames": "^2.2.11",
     "@types/node": "^14.14.10",
     "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "@use-it/interval": "^1.0.0",
