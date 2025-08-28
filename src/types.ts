@@ -87,6 +87,16 @@ export type Props = {
    */
   onSpringEnd?: (event: SpringEvent) => void
 
+  /**
+   * Called when the user starts dragging the bottom sheet.
+   */
+  onDragStart?: () => void
+
+  /**
+   * Called when the user stops dragging the bottom sheet.
+   */
+  onDragEnd?: () => void
+
   /** Whether the bottom sheet is open or not. */
   open: boolean
 

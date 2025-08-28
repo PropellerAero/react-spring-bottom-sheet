@@ -69,6 +69,8 @@ export const BottomSheet = React.forwardRef<
     onSpringStart,
     onSpringCancel,
     onSpringEnd,
+    onDragStart,
+    onDragEnd,
     reserveScrollBarGap = blocking,
     expandOnContentDrag = false,
     ...props
@@ -86,11 +88,15 @@ export const BottomSheet = React.forwardRef<
   const onSpringStartRef = useRef(onSpringStart)
   const onSpringCancelRef = useRef(onSpringCancel)
   const onSpringEndRef = useRef(onSpringEnd)
+  const onDragStartRef = useRef(onDragStart)
+  const onDragEndRef = useRef(onDragEnd)
   useEffect(() => {
     onSpringStartRef.current = onSpringStart
     onSpringCancelRef.current = onSpringCancel
     onSpringEndRef.current = onSpringEnd
-  }, [onSpringCancel, onSpringStart, onSpringEnd])
+    onDragStartRef.current = onDragStart
+    onDragEndRef.current = onDragEnd
+  }, [onSpringCancel, onSpringStart, onSpringEnd, onDragStart, onDragEnd])
 
   // Behold, the engine of it all!
   const [spring, set] = useSpring()
@@ -552,6 +558,7 @@ export const BottomSheet = React.forwardRef<
 
     if (first) {
       send({ type: 'DRAG' })
+      onDragStartRef.current?.()    // ← Add this line
     }
 
     if (last) {
@@ -563,6 +570,7 @@ export const BottomSheet = React.forwardRef<
           source: 'dragging',
         },
       })
+      onDragEndRef.current?.()      // ← Add this line
 
       return memo
     }
