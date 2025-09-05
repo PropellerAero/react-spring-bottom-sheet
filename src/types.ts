@@ -186,7 +186,14 @@ export type Props = {
    * Velocity multiplier for drags/flicks
    * @default 1
    */
-  snapPointSensitivityMultiplier?: number
+  snapPointSensitivityMultiplierDownwards?: number
+
+
+  /**
+   * Velocity multiplier for drags/flicks
+   * @default 1
+   */
+  snapPointSensitivityMultiplierUpwards?: number
 
   /**
    * Restricts dismiss swipe actions to only trigger when already at the minimum snap point

@@ -73,7 +73,8 @@ export const BottomSheet = React.forwardRef<
     onDragEnd,
     reserveScrollBarGap = blocking,
     expandOnContentDrag = false,
-    snapPointSensitivityMultiplier = 1.0,
+    snapPointSensitivityMultiplierDownwards = 1.0,
+    snapPointSensitivityMultiplierUpwards = 1.0,
     dismissVelocityThreshold = 2.0,
     swipeDismissFromMinSnapOnly = false,
     ...props
@@ -510,7 +511,11 @@ export const BottomSheet = React.forwardRef<
       minSnapRef.current,
       Math.min(
         maxSnapRef.current,
-        rawY + predictedDistance * snapPointSensitivityMultiplier
+        rawY +
+          predictedDistance *
+            (direction < 0
+              ? snapPointSensitivityMultiplierUpwards
+              : snapPointSensitivityMultiplierDownwards)
       )
     )
     // is within 10 pixels of the min snap point
